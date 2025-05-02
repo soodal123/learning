@@ -49,10 +49,6 @@ def solution(num1, num2):
     answer = num1 // num2
     return answer
 
-if __name__ == "__main__":
-    # 공백으로 구분된 두 정수를 입력받아 solution 함수 결과 출력
-    num1, num2 = map(int, input().split())
-    print(solution(num1, num2))
 
 # 7. 대체 해결 방법
 # 방법 1: 반복 뺄셈

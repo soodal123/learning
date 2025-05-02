@@ -14,7 +14,3 @@
 
 def solution(num1, num2):
     return int((num1 / num2) * 1000)
-
-if __name__ == "__main__":
-    num1, num2 = map(int, input().split())
-    print(solution(num1, num2))
